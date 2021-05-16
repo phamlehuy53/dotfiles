@@ -89,7 +89,6 @@ plugins=(
     zsh-autosuggestions
     colored-man-pages
     python
-    tmux
     fzf
     vscode
     vundle
@@ -196,3 +195,9 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k-lean-8colors.zsh ]] || source ~/.p10k-lean-8colors.zsh
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 alias lg='lazygit'
+alias pbcopy="xclip -sel clip"
+alias pimg="xclip -selection clipboard -t image/png -o > "
+
+alias edex="/home/huy/.bin/eDEX-UI-Linux-x86_64.AppImage"
+
+alias cheat="/home/huy/.bin/cheat-linux-386"
