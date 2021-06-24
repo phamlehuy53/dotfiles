@@ -51,8 +51,8 @@ repo = 'lifepillar/vim-solarized8'
 [[plugins]]
 repo = 'crusoexia/vim-monokai'
 
-[[plugins]]
-repo = 'hardcoreplayers/dashboard-nvim'
+# [[plugins]]
+# repo = 'hardcoreplayers/dashboard-nvim'
 
 [[plugins]]
 repo = 'hardcoreplayers/vim-buffet'

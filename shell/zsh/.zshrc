@@ -201,3 +201,4 @@ alias pimg="xclip -selection clipboard -t image/png -o > "
 alias edex="/home/huy/.bin/eDEX-UI-Linux-x86_64.AppImage"
 
 alias cheat="/home/huy/.bin/cheat-linux-386"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
